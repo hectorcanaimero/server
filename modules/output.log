@@ -13,3 +13,52 @@
 2020-06-04 19:50:39,705 - root - INFO - running environment: development
 2020-06-04 19:56:55,119 - root - INFO - running environment: development
 2020-06-04 19:56:55,481 - root - INFO - running environment: development
+2020-06-04 20:02:16,976 - root - INFO - running environment: development
+2020-06-04 20:05:42,597 - root - INFO - running environment: development
+2020-06-04 20:06:37,616 - root - INFO - running environment: development
+2020-06-04 20:07:49,525 - root - INFO - running environment: development
+2020-06-04 20:08:04,369 - root - INFO - running environment: development
+2020-06-04 20:08:54,758 - root - INFO - running environment: development
+2020-06-04 20:09:01,579 - root - INFO - running environment: development
+2020-06-04 20:10:06,472 - root - INFO - running environment: development
+2020-06-04 20:10:36,332 - root - INFO - running environment: development
+2020-06-04 20:11:20,731 - root - INFO - running environment: development
+2020-06-04 20:12:11,139 - root - INFO - running environment: development
+2020-06-04 20:16:10,253 - root - INFO - running environment: development
+2020-06-04 20:22:56,116 - root - INFO - running environment: development
+2020-06-04 20:22:57,724 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:27:11,340 - root - INFO - running environment: development
+2020-06-04 20:27:18,889 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:30:03,178 - root - INFO - running environment: development
+2020-06-04 20:33:55,257 - root - INFO - running environment: development
+2020-06-04 20:33:58,453 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:36:11,681 - root - INFO - running environment: development
+2020-06-04 20:36:11,884 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:36:36,895 - root - INFO - running environment: development
+2020-06-04 20:36:38,617 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:38:42,161 - root - INFO - running environment: development
+2020-06-04 20:38:57,689 - app.controllers.user - DEBUG - {'_id': ObjectId('5ed950bf0188d9ff5e38a0c8'), 'email': 'web@condor.com.br', 'password': b'$2b$12$ca5tgWegE.wNl21SGgvllezDyMb0r2C9V396mSai52nYMx9M7ywTy'}
+2020-06-04 20:40:40,748 - root - INFO - running environment: development
+2020-06-04 20:40:50,786 - root - INFO - running environment: development
+2020-06-04 20:41:05,755 - root - INFO - running environment: development
+2020-06-04 20:41:56,988 - root - INFO - running environment: development
+2020-06-04 20:43:01,905 - root - INFO - running environment: development
+2020-06-04 20:44:01,322 - root - INFO - running environment: development
+2020-06-04 20:47:54,440 - root - INFO - running environment: development
+2020-06-04 20:48:02,282 - root - INFO - running environment: development
+2020-06-04 20:53:31,767 - root - INFO - running environment: development
+2020-06-04 20:53:32,064 - root - INFO - running environment: development
+2020-06-04 20:55:10,503 - root - INFO - running environment: development
+2020-06-04 20:55:23,356 - root - INFO - running environment: development
+2020-06-04 20:56:03,724 - root - INFO - running environment: development
+2020-06-04 20:57:45,242 - root - INFO - running environment: development
+2020-06-04 20:58:04,107 - root - INFO - running environment: development
+2020-06-04 20:58:17,920 - root - INFO - running environment: development
+2020-06-04 20:58:36,788 - root - INFO - running environment: development
+2020-06-04 20:58:46,601 - root - INFO - running environment: development
+2020-06-04 20:59:37,960 - root - INFO - running environment: development
+2020-06-04 21:00:13,343 - root - INFO - running environment: development
+2020-06-04 21:01:22,288 - root - INFO - running environment: development
+2020-06-04 21:01:40,119 - root - INFO - running environment: development
+2020-06-04 21:02:12,448 - root - INFO - running environment: development
+2020-06-04 21:02:25,292 - root - INFO - running environment: development

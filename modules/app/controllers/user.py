@@ -4,7 +4,7 @@ from flask import request, jsonify
 from flask_jwt_extended import (create_access_token, create_refresh_token,
                                 jwt_required, jwt_refresh_token_required, get_jwt_identity)
 from app import app, mongo, flask_bcrypt, jwt
-from app.schemas.user import validate_user
+from app.schemas import validate_user
 import logger
 
 
@@ -20,12 +20,15 @@ def unnautorized_rsponse(callback):
 
 @app.route('/auth', methods=['POST'])
 def auth_user():
-    data = validate_user(request.get_json())
-    if data['ok']:
-        user = mongo.db.users.find_one( {'email': data['email']})
-        LOG.debug( user )
-        if user and flask_bcrypt.check_password_hash( user['password'], data['password']):
-            del user['password']
+    print(request.get_json())
+    # data = validate_user(request.get_json())
+    data = request.get_json()
+    if data:
+        user = mongo.db.users.find_one({"email": data["email"]})
+        print(user)
+        LOG.debug(user)
+        if user and flask_bcrypt.check_password_hash( user["password"], data["password"]):
+            del user["password"]
             access_token = create_access_token(identity=data)
             refresh_token = create_refresh_token(identity=data)
             user['token'] = access_token
@@ -63,7 +66,7 @@ def refresh():
 def user():
     if request.method == 'GET':
         query = request.args
-        data = mongo.db.users.find_one(query, {"_id": 0})
+        data = mongo.db.users.find(query, {"_id": 0})
         return jsonify({'ok': True, 'data': data} ), 200
 
     data = request.get_json()

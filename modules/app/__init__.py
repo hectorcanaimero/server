@@ -6,6 +6,7 @@ from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from bson.json_util import dumps
 from flask_jwt_extended import JWTManager
 
 
@@ -16,12 +17,13 @@ class JSONEncoder(json.JSONEncoder):
             return str(o)
         if isinstance(o, datetime.datetime):
             return str(o)
-        return json.JSONEncoder.default(self, o)
+        return dumps(o)
 
 
 app = Flask(__name__)
 app.config['MONGO_URI'] = os.environ.get('DB')
-app.config['JWT_SECRET_KEY'] = os.environ.get('SECRET')
+app.config['JWT_SECRET_KEY'] = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikpva' \
+                               'G4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = datetime.timedelta(days=1)
 mongo = PyMongo(app)
 
